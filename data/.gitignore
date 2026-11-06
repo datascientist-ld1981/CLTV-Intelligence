@@ -1,0 +1,24 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Original datasets
+data/raw/
+
+# Cleaned datasets
+data/cleaned/
+
+# Large files
+*.csv
+*.csv.gz
+*.parquet
+*.xlsx
+
+# Model outputs
+outputs/
+*.pkl
+*.joblib
+
+# Jupyter temporary files
+.ipynb_checkpoints/
